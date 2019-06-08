@@ -1,1 +1,4 @@
 # z390-Hack
+
+Hackintosh setup based on i7-8700 | Azus ASUS ROG STRIX Z390-F GAMING
+ | SAPPHIRE PULSE RADEON RX VEGA 56 | 16GB RAM
