@@ -5,3 +5,11 @@ Hackintosh setup based on:
  - Azus ASUS ROG STRIX Z390-F GAMING
  - SAPPHIRE PULSE RADEON RX VEGA 56
  - Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz C16 XMP 2.0
+
+# Hardware Info
+
+# BIOS settings for installation and boot (eGPU)
+
+# Config.plist
+
+
