@@ -2,10 +2,11 @@
 
 
 
-Inspiration by [Hackintosh / Vanilla](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)
+Inspiration by [Hackintosh / Vanilla](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) & [CMER Hackintosh based on Gigabyte Z390 Aorus Master](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh)
 
 Sections: 
  * Jump to [Hardware](./Hardware.md)
+ 	* Jump to [Explain BIOS](./config_explain_BIOS.md)
  * Jump to [Software](./Software.md)
  	* Jump to [Explain ACPI](./config_explain_ACPI.md)
  	* Jump to [Explain BOOT](./config_explain_BOOT.md)
@@ -45,7 +46,8 @@ Type|Item
 * Mojave install boots successfully
 * NVME - WD Black
 * Sata
-* Display on Sapphire Pulse VEGA 56 HDMI and Display
+* Sapphire Pulse VEGA 56 HDMI and Display
+* Headless iGPU
 * Wired Ethernet - Intel I219-V PCI Express Gigabit Ethernet
 * Bluetooth with Dell DW1820A
 * USB 2.0
@@ -66,4 +68,13 @@ Type|Item
 ### Being finalized
 ---
 * Bluetooth and wifi with an Airport Bcm94360Cs2 from Macbook Air A1465 on a WiFi Bluetooth 4.0 Wireless Card to PCI-E Adapter with External Antenna
+* Handoff & Continuity
+
+### Tools
+* [Clover Installer](https://sourceforge.net/projects/cloverefiboot/files/Installer/)
+* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
+* [Hackintoosh](http://headsoft.com.au/download/mac/Hackintool.zip)
+* [Intel Power Gadget](https://software.intel.com/en-us/articles/intel-power-gadget)
+* [MacIASL](http://sourceforge.net/projects/maciasl)
+* [VideoProc](https://www.videoproc.com/) - Chech Hardware Acceleration
 

@@ -1,9 +1,11 @@
+Jump to [Explain BIOS](./config_explain_BIOS.md)
+
 ## NZXT H500 USB
 
 Front panel USB uses 3.0 Gen1 instead of 3.0 Gen2.
 
 
-## Fan Situation
+## Fan Distribution
 
 Location|Fan|Size|RPM|dbA
 :----|:----|:----|:----|:----
@@ -36,10 +38,3 @@ USB11         | HS011        | USB 2.0 Only
 USB12         | HS012        | USB 2.0 Only
 USB13         | HS013        | USB 2.0 Only
 USB14         | HS014        | USB 2.0 Only
-
-
-
-## BIOS settings for installation and boot (eGPU)
-
-***Bios version 0905 (2019/04/11)***
-
