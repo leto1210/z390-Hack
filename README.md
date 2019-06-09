@@ -44,8 +44,10 @@ Type|Item
 ---
 * Mojave install boots successfully
 * NVME - WD Black
+* Sata
 * Display on Sapphire Pulse VEGA 56 HDMI and Display
 * Wired Ethernet - Intel I219-V PCI Express Gigabit Ethernet
+* Bluetooth with Dell DW1820A
 * USB 2.0
 * USB 3.1 and USB C
 * Sleep/Wake
@@ -59,4 +61,9 @@ Type|Item
 ### Not Working
 ---
 * Netflix with Safari (ask for HTML 5 / Silverlight compatible browser)
+* Wifi with Dell DW1820A
+
+### Being finalized
+---
+* Bluetooth and wifi with an Airport Bcm94360Cs2 from Macbook Air A1465 on a WiFi Bluetooth 4.0 Wireless Card to PCI-E Adapter with External Antenna
 
