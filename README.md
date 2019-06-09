@@ -44,10 +44,10 @@ Type|Item
 ### Working
 ---
 * Mojave install boots successfully
-* NVME - WD Black
+* APFS - NVME - WD Black
 * Sata
 * Sapphire Pulse VEGA 56 HDMI and Display
-* Headless iGPU
+* Headless iGPU UHD 630
 * Wired Ethernet - Intel I219-V PCI Express Gigabit Ethernet
 * Bluetooth with Dell DW1820A
 * USB 2.0
@@ -59,6 +59,7 @@ Type|Item
 * Netflix with Chrome 
 * H.264 videos via VLC (.mkv, .m4a, .m4p)
 * HWMonitor (after copying required kexts to EFI)
+* AirPlay
 
 ### Not Working
 ---
@@ -76,5 +77,5 @@ Type|Item
 * [Hackintoosh](http://headsoft.com.au/download/mac/Hackintool.zip)
 * [Intel Power Gadget](https://software.intel.com/en-us/articles/intel-power-gadget)
 * [MacIASL](http://sourceforge.net/projects/maciasl)
-* [VideoProc](https://www.videoproc.com/) - Chech Hardware Acceleration
+* [VideoProc](https://www.videoproc.com/) - Chech UHD Hardware Acceleration
 
