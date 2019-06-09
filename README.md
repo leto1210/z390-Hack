@@ -68,8 +68,8 @@ G31G1_7       | HS07         | USB 3.1 Gen 1 Front case
 G31G1_8       | HS08         | USB 3.1 Gen 1 Front case
 G31G1_9       | HS09         | USB 3.1 Gen 1
 USB10         | HS010        | USB 3.1 Gen 1
-USB11         | HS011        | USB 2.0
-USB12         | HS012        | USB 2.0
+USB11         | HS011        | USB 2.0 Only
+USB12         | HS012        | USB 2.0 Only
 USB13         | HS013        | USB 2.0 Only
 USB14         | HS014        | USB 2.0 Only
 
