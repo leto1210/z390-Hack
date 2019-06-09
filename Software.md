@@ -135,37 +135,12 @@ macOS Mojave version 10.14.5
 			<false/>
 		</dict>
 	</dict>
-	<key>KernelAndKextPatches</key>
+  <key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
 		<true/>
 		<key>AppleRTC</key>
 		<true/>
-		<key>KernelPm</key>
-		<false/>
-		<key>KextsToPatch</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>External icons patch</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.11.x,10.12.x,10.13.x,10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
-			</dict>
-		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -266,7 +241,7 @@ In this configuration, the 2 rear blue USB3.1 ports, USB 3.1 Gen2 Type C motherb
     * SS08: ENABLED
     * SS09: DISABLED
     * SS10: DISABLED
-    * Other Super Speed (SS) USB ports are DISABLED 
+    * Other Super Speed (SS) USB ports are DISABLED
 * Compile as `SSDT-UIAC.aml` file to `EFI/CLOVER/ACPI/patched/`
 * Disable USB port limit patch in Clover
 
