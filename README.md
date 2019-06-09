@@ -78,7 +78,7 @@ USB14         | HS014        | USB 2.0 Only
 ### BIOS settings for installation and boot (eGPU)
 
 ---
-TBD
+***Bios version 0905 (2019/04/11)***
 
 
 ## Software
