@@ -5,8 +5,8 @@
 Inspiration by [Hackintosh / Vanilla](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)
 
 Sections: 
- Jump to [Hardware](#Hardware.md)
- Jump to [Software](#Software.md)
+ Jump to [Hardware](./Hardware.md)
+ Jump to [Software](./Software.md)
 
 
 ![About Mac](./Images/About.jpg)
