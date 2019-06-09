@@ -19,11 +19,13 @@ macOS Mojave version 10.14.5
 Using Clover version 4945
 
 _Under UEFI Drivers choose:_
-* _ApfsDriverLoader-64_ \
-* _AptioMemoryFix-64_ \
-* _EmuVariableUefi-64_ \
-* _FSInject-64_ \
-* _HFSPlus_ \ (- Apple official driver for HFS Plus)
+* _ApfsDriverLoader-64_ - This allows Clover to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device
+* _AptioMemoryFix-64_ - Fixing certain UEFI APTIO Firmware issues relevant to booting macOS
+* _EmuVariableUefi-64_ - Fix mvram not present on my Asus MB
+* _FSInject-64_ 
+* _HFSPlus_ - Apple official driver for HFS Plus
+
+Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi-64 nvramproblem with my Asus MB
 
 ## Config.plist
 
