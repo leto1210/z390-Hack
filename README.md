@@ -1,5 +1,6 @@
 # z390-Hack based on ***Core i7-8700 | Z390 | VEGA56***
---
+
+
 
 Inspiration by [Hackintosh / Vanilla](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)
 
