@@ -13,6 +13,7 @@ Sections:
  	* Jump to [Explain DEVICES](./config_explain_DEVICES.md)
  	* Jump to [Explain Kernel And Kext Patches](./config_explain_KandKexTPatches.md)
  	* Jump to [Explain SSDT USB](./config_ssdt_usb.md)
+ * Jump to [Benchmark](./benchmark.md)
 
 
 ![About Mac](./Images/About.jpg)
@@ -70,12 +71,14 @@ Type|Item
 ---
 * Bluetooth and wifi with an Airport Bcm94360Cs2 from Macbook Air A1465 on a WiFi Bluetooth 4.0 Wireless Card to PCI-E Adapter with External Antenna
 * Handoff & Continuity
+* Overall optimization
 
 ### Tools
 * [Clover Installer](https://sourceforge.net/projects/cloverefiboot/files/Installer/)
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 * [Hackintoosh](http://headsoft.com.au/download/mac/Hackintool.zip)
 * [Intel Power Gadget](https://software.intel.com/en-us/articles/intel-power-gadget)
+* [LG 4K Dolby Trailer](https://drive.google.com/uc?export=download&id=1Fr_pI7uadSs9K99WFrJx2-1m8GwcC1R9)
 * [MacIASL](http://sourceforge.net/projects/maciasl)
 * [VideoProc](https://www.videoproc.com/) - Chech UHD Hardware Acceleration
 
