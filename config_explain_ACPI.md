@@ -1,9 +1,8 @@
 
-##ACPI
+## ACPI
 
 
-
-```markup
+```
 <key>ACPI</key>
 	<dict>
 		<key>AutoMerge</key>
