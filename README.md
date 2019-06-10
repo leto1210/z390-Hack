@@ -1,4 +1,4 @@
-# z390-Hack based on ***Core i7-8700 | Z390 | VEGA56***
+# z390-Hackintosh based on ***Core i7-8700 | Z390 | VEGA56***
 
 
 
