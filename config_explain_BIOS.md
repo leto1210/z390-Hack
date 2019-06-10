@@ -3,7 +3,7 @@
 ***Bios version 0905 (2019/04/11)***
 
 ````
-Always do a "Load Optimized Defaults" after Bios Update or applying this parameters
+Always do a "Load Optimized Defaults" after Bios Update or before applying this parameters
 ````
 
 ## Ai Tweaker
