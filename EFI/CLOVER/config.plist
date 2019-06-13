@@ -88,11 +88,6 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
-		<key>Inject</key>
-		<dict>
-			<key>Intel</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
