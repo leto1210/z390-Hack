@@ -20,6 +20,8 @@ Always do a "Load Optimized Defaults" after Bios Update or before applying this 
 ### CPU Configguration
 
 * Intel (VMX) Virtualization Technology: Disabled
+* CPU Powermanagement Control
+	* CFG Lock: Disabled
 
 ### Sytem Agent (SA) Configuration
 
