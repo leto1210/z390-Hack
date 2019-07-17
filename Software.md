@@ -1,7 +1,7 @@
 # Software
 
 ---
-Setup for a Mac 19,1 with Clover 4945
+Setup for a Mac 19,1 with Clover 5018
 
 Mojave version 10.14.5 for AMD Vega native support
 
@@ -23,7 +23,7 @@ macOS Mojave version 10.14.5
 
 ## Installing Clover
 
-Using Clover version 4945
+Using Clover version 5018
 
 _Under UEFI Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 * _ApfsDriverLoader_ - This allows Clover to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device
