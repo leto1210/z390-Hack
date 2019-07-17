@@ -32,7 +32,7 @@ _Under UEFI Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:
 * _FSInject_ 
 * _HFSPlus_ - Apple official driver for HFS Plus
 
-Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi-64 nvram problem with my Asus MB
+Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram problem with my Asus MB
 
 ## Config.plist
 
