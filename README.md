@@ -40,37 +40,44 @@ Type|Item
 **Power Supply** | [SeaSonic - PRIME Ultra Titanium 650 W 80+ Titanium Certified Fully Modular ATX Power Supply](https://pcpartpicker.com/product/fnjJ7P/seasonic-prime-ultra-titanium-650w-80-titanium-certified-fully-modular-atx-power-supply-ssr-650tr)
 **Custom** | [Fenvi Desktop Wireless Network M.2(NGFF) Wireless Card to PCI-e 1X Adapter Converter(Not Including Networking card) Compact Intel NGFF M.2 7260 8260 3160 ect Windows 7, 8, 10 Compatible](https://pcpartpicker.com/product/rpgzK8/fenvi-desktop-wireless-network-m2ngff-wireless-card-to-pci-e-1x-adapter-converternot-including-networking-card-compact-intel-ngff-m2-7260-8260-3160-ect-windows-7-8-10-compatible)
 **Custom** | [ROG Addressable LED Strip (30 cm, Aura Sync RGB, magnetisch Casemod)](https://pcpartpicker.com/product/ytBTwP/rog-addressable-led-strip-30-cm-aura-sync-rgb-magnetisch-casemod)
+**Custom** | Airport Bcm94360Cs2 from Macbook Air A1465 on a WiFi Bluetooth 4.0 Wireless Card to PCI-E Adapter with External Antenna
 
 
 ### Working
 ---
 * Mojave install boots successfully
 * APFS - NVME - WD Black
-* Sata
-* Sapphire Pulse VEGA 56 HDMI and Display
+* Sata - WD Green
+* Sapphire Pulse VEGA 56 HDMI and Display Port
 * Headless iGPU UHD 630
 * Wired Ethernet - Intel I219-V PCI Express Gigabit Ethernet
-* Bluetooth with Dell DW1820A
+* Wireless Ethernet / Wifi - Airport A1465 (Bcm94360Cs2)
+* Bluetooth - Airport A1465 (Bcm94360Cs2)
+* Apple Bluetooth WakeUp
+* Audio - Select internal speakers
+* Rear and Front audio jacks
 * USB 2.0
+* Apple Superdrive USB 2.0
 * USB 3.1 and USB C
 * Sleep/Wake
 * Quicklook
-* Rear and Front audio jacks
 * Youtube video
 * Netflix with Chrome 
 * H.264 videos via VLC (.mkv, .m4a, .m4p)
-* HWMonitor (after copying required kexts to EFI)
+* HWMonitor (after copying required kexts to EFI/Kexts/Others)
 * AirPlay
+* Handoff & Continuity
+* Facetime
+* Itunes
+* Apple Store
+* Nightshift
 
 ### Not Working
 ---
-* Netflix with Safari (ask for HTML 5 / Silverlight compatible browser)
-* Wifi with Dell DW1820A
+* Netflix with Safari (ask for HTML 5 / Silverlight compatible browser
 
 ### Being finalized
 ---
-* Bluetooth and wifi with an Airport Bcm94360Cs2 from Macbook Air A1465 on a WiFi Bluetooth 4.0 Wireless Card to PCI-E Adapter with External Antenna
-* Handoff & Continuity
 * Overall optimization
 
 ### Tools
