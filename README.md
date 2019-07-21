@@ -16,7 +16,7 @@ Sections:
  * Jump to [Benchmark](./benchmark.md)
 
 
-![About Mac](./Images/About.jpg)
+![About Mac](./Images/About_2.jpg)
 ![About UHD](./Images/UHD_630_About.jpg)
 
 
