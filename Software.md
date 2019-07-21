@@ -1,7 +1,7 @@
 # Software
 
 ---
-Setup for a Mac 19,1 with Clover 4945
+Setup for a Mac 19,1 with Clover 5018
 
 Mojave version 10.14.5 for AMD Vega native support
 
@@ -23,16 +23,16 @@ macOS Mojave version 10.14.5
 
 ## Installing Clover
 
-Using Clover version 4945
+Using Clover version 5018
 
-_Under UEFI Drivers choose:_
-* _ApfsDriverLoader-64_ - This allows Clover to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device
-* _AptioMemoryFix-64_ - Fixing some UEFI APTIO Firmware issues relevant to booting macOS
-* _EmuVariableUefi-64_ - Fix mvram not present on my Asus MB
-* _FSInject-64_ 
+_Under UEFI Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
+* _ApfsDriverLoader_ - This allows Clover to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device
+*  _OsxAptioFix3Drv.efi_ - Fixing some UEFI APTIO Firmware issues relevant to booting macOS (As AptioMemoryFix is not working on my config)
+* _EmuVariableUefi_ - Fix mvram not present on my Asus MB
+* _FSInject_ 
 * _HFSPlus_ - Apple official driver for HFS Plus
 
-Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi-64 nvram problem with my Asus MB
+Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram problem with my Asus MB
 
 ## Config.plist
 
