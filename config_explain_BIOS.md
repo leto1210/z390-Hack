@@ -30,7 +30,7 @@ Always do a "Load Optimized Defaults" after Bios Update or before applying this 
 * Memory Configiration
 	* Primary Display: PCIE
 	* iGPU Monitor: Enabled
-	* DVMT Pre-Allocated: 128M
+	* DVMT Pre-Allocated: 96M
 	* RC6 (Render Standby): Disabled
 
 ### PCH-FW Configuration
