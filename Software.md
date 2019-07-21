@@ -1,7 +1,7 @@
 # Software
 
 ---
-Setup for a Mac 19,1 with Clover 5018
+Setup for a Mac 19,2 with Clover 5018
 
 Mojave version 10.14.5 for AMD Vega native support
 
@@ -52,35 +52,7 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 				<key>FixShutdown</key>
 				<true/>
 			</dict>
-			<key>Patches</key>
-			<array>
-				<dict>
-					<key>Comment</key>
-					<string>change SAT0 to SATA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					U0FUQQ==
-					</data>
-				</dict>
-			</array>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>MATS</string>
-			</dict>
-		</array>
 		<key>FixHeaders</key>
 		<true/>
 		<key>SSDT</key>
@@ -95,7 +67,7 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>keepsyms=1 dart=0 slide=0 debug=0x100 shikigva=40</string>
+		<string>slide=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NoEarlyProgress</key>
@@ -110,12 +82,25 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>7</integer>
+			<integer>1</integer>
 		</dict>
-		<key>USB</key>
+		<key>Properties</key>
 		<dict>
-			<key>Inject</key>
-			<false/>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				AwCSPg==
+				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>UHD Graphics 630 (Desktop)</string>
+			</dict>
 		</dict>
 	</dict>
 	<key>GUI</key>
@@ -145,44 +130,34 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>DarkBoot</string>
+		<string>embedded</string>
 	</dict>
-	<key>Graphics</key>
+	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>Inject</key>
-		<dict>
-			<key>Intel</key>
-			<false/>
-		</dict>
-	</dict>
-  <key>KernelAndKextPatches</key>
-	<dict>
-		<key>AppleIntelCPUPM</key>
-		<true/>
 		<key>AppleRTC</key>
 		<true/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
 		<key>MLB</key>
-		<string>xxxxxxxxx</string>
+		<string>C029128024NLNV98C</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>02/18/2019</string>
+		<string>04/22/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM191.88Z.F000.B00.1902181222</string>
+		<string>IM191.88Z.F000.B00.1904222222</string>
 		<key>Board-ID</key>
-		<string>Mac-xxxxxxx</string>
+		<string>Mac-63001698E7A34814</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>xxxxxxxxxxx</string>
+		<string>C02927207GUKGQGUE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -194,11 +169,11 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.250.368.0.0</string>
+		<string>220.260.170.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE137</string>
+		<string>0xFD8FF576</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -210,11 +185,11 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 		<key>PlatformFeature</key>
 		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac19,1</string>
+		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>xxxxxxxxx</string>
+		<string>XXXXXXXXXXXXXXXXX</string>
 		<key>SmUUID</key>
-		<string>xxxxxxxx</string>
+		<string>XXXXXXXXXXXXXXXXX</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
