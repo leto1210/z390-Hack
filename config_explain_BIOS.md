@@ -27,7 +27,7 @@ Always do a "Load Optimized Defaults" after Bios Update or before applying this 
 
 * VT-d: Enabled
 * Above 4G Decoding: Enabled
-* Memory Configiration
+* Graphics Configiration
 	* Primary Display: PCIE
 	* iGPU Monitor: Enabled
 	* DVMT Pre-Allocated: 96M
@@ -45,7 +45,7 @@ Always do a "Load Optimized Defaults" after Bios Update or before applying this 
 * Serial Port Configuration
 	* Serial Port: Off
 
-### Subsystem Settings
+### PCI Subsystem Settings
 
 * SR-IOV Support: Disabled
 
