@@ -1,6 +1,6 @@
 # BIOS settings for installation and boot (eGPU)
 
-***Bios version 0905 (2019/04/11)***
+***Bios version 1105 (2019/06/25)***
 
 ````
 Always do a "Load Optimized Defaults" after Bios Update or before applying this parameters
