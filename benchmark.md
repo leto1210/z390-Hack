@@ -1,3 +1,6 @@
+# LuxMark
+![Score](./Images/LuxMark.jpg)
+
 # Geekbench 4
 
 ![Overall Score](./Images/GeekBench_CPU_01.jpg)
