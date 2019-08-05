@@ -17,7 +17,7 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>ACPI Patch</string>
+					<string>ACPI Patch - Fix Asus Z390 BIOS bug fix</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
