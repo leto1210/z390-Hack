@@ -58,7 +58,10 @@
 
 ---
 #### Patches :
+* ***ACPI Patch - Fix Asus Z390 BIOS bug fix*** Need for working with ASUS UEFI 1105
+* ***change EC0 to EC*** To enable USB power management
 * ***change SAT0 to SATA*** Need for correct mapping of my SATA drive
+* ***change XHCI to XHC*** Helps avoid a conflict with built-in USB injectors
 
 ---
 #### Fixes : 
