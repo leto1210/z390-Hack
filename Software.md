@@ -31,7 +31,7 @@ _Under UEFI Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:
 * _EmuVariableUefi.efi_ - Fix mvram not present on my Asus MB
 * _FSInject.efi_ 
 * _HFSPlus.efi_ - Apple official driver for HFS Plus
-* _VirtualSmc.efi_ Need for VirtualSMC Kexts
+* _VirtualSmc.efi_ - Need for VirtualSMC Kexts
 
 Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram problem with my Asus MB
 
