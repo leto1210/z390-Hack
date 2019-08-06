@@ -26,11 +26,12 @@ macOS Mojave version 10.14.5
 Using Clover version 5033
 
 _Under UEFI Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
-* _ApfsDriverLoader_ - This allows Clover to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device
+* _ApfsDriverLoader.efi_ - This allows Clover to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device
 *  _OsxAptioFix3Drv.efi_ - Fixing some UEFI APTIO Firmware issues relevant to booting macOS (As AptioMemoryFix is not working on my config)
-* _EmuVariableUefi_ - Fix mvram not present on my Asus MB
-* _FSInject_ 
-* _HFSPlus_ - Apple official driver for HFS Plus
+* _EmuVariableUefi.efi_ - Fix mvram not present on my Asus MB
+* _FSInject.efi_ 
+* _HFSPlus.efi_ - Apple official driver for HFS Plus
+* _VirtualSmc.efi_ Need for VirtualSMC Kexts
 
 Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram problem with my Asus MB
 
@@ -269,7 +270,6 @@ AppleALC.kext | Audio
 VirtualSMC.kext | Required
 SMCLightSensor.kext | Metrics
 SMCProcessor.kext | Metrics
-SMCBatteryManager.kext | Metrics
 SMCSuperIO.kext | Metrics
 IntelMausiEthernet.kext | Ethernet
 Lilu.kext | Audio + Graphics
