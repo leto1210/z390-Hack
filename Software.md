@@ -52,9 +52,68 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 				<key>FixShutdown</key>
 				<true/>
 			</dict>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>ACPI Patch - Fix Asus Z390 BIOS bug fix</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					oAqTU1RBUwE=
+					</data>
+					<key>Replace</key>
+					<data>
+					oAqRCv8L//8=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUMwXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change SAT0 to SATA</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					U0FUMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					U0FUQQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change XHCI to XHC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WEhDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
+			</array>
 		</dict>
 		<key>FixHeaders</key>
-		<true/>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>Generate</key>
@@ -187,9 +246,9 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 		<key>ProductName</key>
 		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>XXXXXXXXXXXXXXXXX</string>
+		<string>C02Z1XYRJWDW</string>
 		<key>SmUUID</key>
-		<string>XXXXXXXXXXXXXXXXX</string>
+		<string>014891C5-1455-4649-A78A-FD7A68F3A06A</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
