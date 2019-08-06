@@ -216,7 +216,7 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02927207GUKGQGUE</string>
+		<string>XXXXXXXXXXXXX</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -246,9 +246,9 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 		<key>ProductName</key>
 		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>C02Z1XYRJWDW</string>
+		<string>XXXXXXXXXXXXXXX</string>
 		<key>SmUUID</key>
-		<string>014891C5-1455-4649-A78A-FD7A68F3A06A</string>
+		<string>XXXXXXXXXXXXX</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
