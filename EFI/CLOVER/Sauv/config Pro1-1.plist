@@ -13,68 +13,9 @@
 				<key>FixShutdown</key>
 				<true/>
 			</dict>
-			<key>Patches</key>
-			<array>
-				<dict>
-					<key>Comment</key>
-					<string>ACPI Patch - Fix Asus Z390 BIOS bug fix</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					oAqTU1RBUwE=
-					</data>
-					<key>Replace</key>
-					<data>
-					oAqRCv8L//8=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUMwXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUNfXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change SAT0 to SATA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					U0FUQQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change XHCI to XHC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WEhDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
-				</dict>
-			</array>
 		</dict>
 		<key>FixHeaders</key>
-		<false/>
+		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>Generate</key>
@@ -103,24 +44,6 @@
 		<dict>
 			<key>Inject</key>
 			<integer>1</integer>
-		</dict>
-		<key>Properties</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				AwCSPg==
-				</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>model</key>
-				<string>UHD Graphics 630 (Desktop)</string>
-			</dict>
 		</dict>
 	</dict>
 	<key>GUI</key>
@@ -160,7 +83,7 @@
 	<key>RtVariables</key>
 	<dict>
 		<key>MLB</key>
-		<string>XXXXXXXXXXXX</string>
+		<string>C029128024NLNV98C</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
@@ -171,19 +94,19 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM191.88Z.F000.B00.1904222222</string>
+		<string>IMP11.88Z.F000.B00.1904222000</string>
 		<key>Board-ID</key>
-		<string>Mac-63001698E7A34814</string>
+		<string>Mac-7BA5B2D9E42DDD94</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>XXXXXXXXXXXXXX</string>
+		<string>C02739802QXJG36AD</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>iMac-Aluminum</string>
+		<string>iMacPro-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
@@ -191,11 +114,11 @@
 		<key>EfiVersion</key>
 		<string>220.260.170.0.0</string>
 		<key>Family</key>
-		<string>iMac</string>
+		<string>iMac Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFD8FF576</string>
+		<string>0xFD8FF53F</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
+		<string>0xFF9FFF3F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
@@ -203,13 +126,13 @@
 		<key>Mobile</key>
 		<false/>
 		<key>PlatformFeature</key>
-		<string>0x00</string>
+		<string>0xFFFF</string>
 		<key>ProductName</key>
-		<string>iMac19,2</string>
+		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
-		<string>XXXXXXXXXX</string>
+		<string>C02VGYZMHX87</string>
 		<key>SmUUID</key>
-		<string>014891C5-1455-4649-A78A-FD7A68F3A06A</string>
+		<string>A2B17053-EB0D-466A-A4D2-A95FC9B7AD47</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
