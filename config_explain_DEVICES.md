@@ -35,9 +35,11 @@
 ---
 #### Audio:
 
-Here we set our audio to inject _Layout 7_ - this may or may not be compatible with your codec, but you can check on [_AppleALC's Supported Codec Page_](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs).
+Here we set our audio to inject _Layout 1_ - this may or may not be compatible with your codec, but you can check on [_AppleALC's Supported Codec Page_](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs).
 
-We also enabled _ResetHDA_ which puts the codec back in a neutral state between OS reboots. This prevents some issues with no audio after booting to another OS and then back.
+Asus ROG SupremeFX S1220A is base on Realteck ALC1220.
+Acording to Info.plist on AppleALC Github for ALC1220 layout 1 is for "Toleda - Realtek ALC1220, 5/6 audio ports, native: 2 inputs, 3/4 outputs+front panel+SPDIF/Optical"
+
 
 #### Graphics:
 
