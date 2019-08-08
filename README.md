@@ -74,7 +74,7 @@ Type|Item
 
 ### Not Working
 ---
-* Netflix with Safari (ask for HTML 5 / Silverlight compatible browser
+* Netflix with Safari (ask for HTML 5 / Silverlight compatible browser)
 
 ### Being finalized
 ---
