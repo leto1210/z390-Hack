@@ -18,6 +18,34 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>ACPI Patch - Fix Asus Z390 BIOS bug fix</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					oAqTU1RBUwE=
+					</data>
+					<key>Replace</key>
+					<data>
+					oAqRCv8L//8=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUMwXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change SAT0 to SATA</string>
 					<key>Disabled</key>
 					<false/>
@@ -30,21 +58,24 @@
 					U0FUQQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change XHCI to XHC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WEhDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
 			</array>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>MATS</string>
-			</dict>
-		</array>
 		<key>FixHeaders</key>
-		<true/>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>Generate</key>
@@ -58,7 +89,10 @@
 
 ---
 #### Patches :
+* ***ACPI Patch - Fix Asus Z390 BIOS bug fix*** Need for working with ASUS UEFI 1105
+* ***change EC0 to EC*** To enable USB power management
 * ***change SAT0 to SATA*** Need for correct mapping of my SATA drive
+* ***change XHCI to XHC*** Helps avoid a conflict with built-in USB injectors
 
 ---
 #### Fixes : 

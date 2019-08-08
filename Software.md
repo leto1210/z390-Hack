@@ -1,9 +1,9 @@
 # Software
 
 ---
-Setup for a Mac 19,2 with Clover 5018
+Setup for a Mac 19,2 with Clover 5033
 
-Mojave version 10.14.5 for AMD Vega native support
+Mojave version 10.14.6 for AMD Vega native support
 
 * Jump to [Explain ACPI](./config_explain_ACPI.md)
 * Jump to [Explain BOOT](./config_explain_BOOT.md)
@@ -23,14 +23,15 @@ macOS Mojave version 10.14.5
 
 ## Installing Clover
 
-Using Clover version 5018
+Using Clover version 5033
 
 _Under UEFI Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
-* _ApfsDriverLoader_ - This allows Clover to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device
+* _ApfsDriverLoader.efi_ - This allows Clover to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device
 *  _OsxAptioFix3Drv.efi_ - Fixing some UEFI APTIO Firmware issues relevant to booting macOS (As AptioMemoryFix is not working on my config)
-* _EmuVariableUefi_ - Fix mvram not present on my Asus MB
-* _FSInject_ 
-* _HFSPlus_ - Apple official driver for HFS Plus
+* _EmuVariableUefi.efi_ - Fix mvram not present on my Asus MB
+* _FSInject.efi_ 
+* _HFSPlus.efi_ - Apple official driver for HFS Plus
+* _VirtualSmc.efi_ - Need for VirtualSMC Kexts
 
 Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram problem with my Asus MB
 
@@ -52,9 +53,68 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 				<key>FixShutdown</key>
 				<true/>
 			</dict>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>ACPI Patch - Fix Asus Z390 BIOS bug fix</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					oAqTU1RBUwE=
+					</data>
+					<key>Replace</key>
+					<data>
+					oAqRCv8L//8=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUMwXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change SAT0 to SATA</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					U0FUMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					U0FUQQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change XHCI to XHC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WEhDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
+			</array>
 		</dict>
 		<key>FixHeaders</key>
-		<true/>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>Generate</key>
@@ -157,7 +217,7 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02927207GUKGQGUE</string>
+		<string>XXXXXXXXXXXXX</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -187,9 +247,9 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 		<key>ProductName</key>
 		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>XXXXXXXXXXXXXXXXX</string>
+		<string>XXXXXXXXXXXXXXX</string>
 		<key>SmUUID</key>
-		<string>XXXXXXXXXXXXXXXXX</string>
+		<string>XXXXXXXXXXXXX</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -210,7 +270,6 @@ AppleALC.kext | Audio
 VirtualSMC.kext | Required
 SMCLightSensor.kext | Metrics
 SMCProcessor.kext | Metrics
-SMCBatteryManager.kext | Metrics
 SMCSuperIO.kext | Metrics
 IntelMausiEthernet.kext | Ethernet
 Lilu.kext | Audio + Graphics
