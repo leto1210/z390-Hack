@@ -1,7 +1,7 @@
 # Software
 
 ---
-Setup for a Mac 19,2 with Clover 5033
+Setup for a Mac 19,2 with Clover 5070
 
 Mojave version 10.14.6 for AMD Vega native support
 
@@ -14,7 +14,7 @@ Mojave version 10.14.6 for AMD Vega native support
 
 ## Create macOS Installation
 
-macOS Mojave version 10.14.5
+macOS Mojave version 10.14.6
 * Format USB (minimum 8 GB) `diskutil eraseDisk JHFS+ USB /dev/disk#`
 > The above command was required for a USB drive which did not have an EFI partition, not created with the GUID partition scheme. The option to create the GUID partition scheme was not in the Mojave Disk Utility GUI.
 * Create a macOS USB installer `sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/USB`
@@ -23,13 +23,13 @@ macOS Mojave version 10.14.5
 
 ## Installing Clover
 
-Using Clover version 5033
+Using Clover version 5070
 
 _Under UEFI Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 * _ApfsDriverLoader.efi_ - This allows Clover to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device
 *  _OsxAptioFix3Drv.efi_ - Fixing some UEFI APTIO Firmware issues relevant to booting macOS (As AptioMemoryFix is not working on my config)
 * _EmuVariableUefi.efi_ - Fix mvram not present on my Asus MB
-* _FSInject.efi_ 
+* _FSInject.efi_
 * _HFSPlus.efi_ - Apple official driver for HFS Plus
 * _VirtualSmc.efi_ - Need for VirtualSMC Kexts
 
