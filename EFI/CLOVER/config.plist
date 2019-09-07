@@ -142,7 +142,6 @@
 		<key>Hide</key>
 		<array>
 			<string>PreBoot</string>
-			<string>Recovery</string>
 			<string>Windows</string>
 		</array>
 		<key>Mouse</key>
@@ -174,7 +173,7 @@
 	<key>RtVariables</key>
 	<dict>
 		<key>MLB</key>
-		<string>XXXXXXXXXXXX</string>
+		<string>xxxxxxxxxxxxxxxxx</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
@@ -187,11 +186,11 @@
 		<key>BiosVersion</key>
 		<string>IM191.88Z.F000.B00.1904222222</string>
 		<key>Board-ID</key>
-		<string>Mac-63001698E7A34814</string>
+		<string>Mac-xxxxxxxxxxxxxxxxx</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>XXXXXXXXXXXXXX</string>
+		<string>xxxxxxxxxxxxxxxxxxx</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -221,9 +220,9 @@
 		<key>ProductName</key>
 		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>XXXXXXXXXX</string>
+		<string>xxxxxxxxxxxxxxx</string>
 		<key>SmUUID</key>
-		<string>014891C5-1455-4649-A78A-FD7A68F3A06A</string>
+		<string>xxxxxxxxxxxxxxxxxxxxxxxxx</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
