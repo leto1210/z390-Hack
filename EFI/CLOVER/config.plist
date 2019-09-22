@@ -122,10 +122,6 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				AwCSPg==
-				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
 				<key>device_type</key>
@@ -180,11 +176,11 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>04/22/2019</string>
+		<string>07/26/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM191.88Z.F000.B00.1904222222</string>
+		<string>IMP11.88Z.F000.B00.1907261958</string>
 		<key>Board-ID</key>
 		<string>Mac-xxxxxxxxxxxxxxxxxx</string>
 		<key>BoardManufacturer</key>
@@ -196,19 +192,19 @@
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>iMac-Aluminum</string>
+		<string>iMacPro-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.260.170.0.0</string>
+		<string>1037.0.39.151.1</string>
 		<key>Family</key>
-		<string>iMac</string>
+		<string>iMac Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFD8FF576</string>
+		<string>0xFD8FF53F</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
+		<string>0xFF9FFF3F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
@@ -218,7 +214,7 @@
 		<key>PlatformFeature</key>
 		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac19,2</string>
+		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
 		<string>xxxxxxxxxxxxxxxxxx</string>
 		<key>SmUUID</key>
