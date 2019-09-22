@@ -146,21 +146,6 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 		</dict>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				AwCSPg==
-				</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>model</key>
-				<string>UHD Graphics 630 (Desktop)</string>
-			</dict>
 		</dict>
 	</dict>
 	<key>GUI</key>

@@ -29,9 +29,7 @@ Always do a "Load Optimized Defaults" after Bios Update or before applying this 
 * Above 4G Decoding: Enabled
 * Graphics Configiration
 	* Primary Display: PCIE
-	* iGPU Monitor: Enabled
-	* DVMT Pre-Allocated: 96M
-	* RC6 (Render Standby): Disabled
+	* iGPU Monitor: Disabled
 
 ### PCH-FW Configuration
 
