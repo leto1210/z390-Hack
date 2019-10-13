@@ -4,7 +4,7 @@
 
 Inspiration by [Hackintosh / Vanilla](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) & [CMER Hackintosh based on Gigabyte Z390 Aorus Master](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh)
 
-Sections: 
+Sections:
  * Jump to [Hardware](./Hardware.md)
  	* Jump to [Explain BIOS](./config_explain_BIOS.md)
  * Jump to [Software](./Software.md)
@@ -28,9 +28,9 @@ Sections:
 Type|Item
 :----|:----
 **CPU** | [Intel - Core i7-8700 3.2 GHz 6-Core Processor](https://pcpartpicker.com/product/C9hj4D/intel-core-i7-8700-32ghz-6-core-processor-bx80684i78700)
-**CPU Cooler** | [be quiet! - Dark Rock 4 CPU Cooler](https://pcpartpicker.com/product/FRYLrH/be-quiet-dark-rock-4-cpu-cooler-bk021) 
+**CPU Cooler** | [be quiet! - Dark Rock 4 CPU Cooler](https://pcpartpicker.com/product/FRYLrH/be-quiet-dark-rock-4-cpu-cooler-bk021)
 **Motherboard** | [Asus - ROG STRIX Z390-F GAMING ATX LGA1151 Motherboard](https://pcpartpicker.com/product/CM7v6h/asus-rog-strix-z390-f-gaming-atx-lga1151-motherboard-rog-strix-z390-f-gaming)
-**Memory** | [Corsair - Vengeance LPX 16 GB (2 x 8 GB) DDR4-3200 Memory](https://pcpartpicker.com/product/DK66Mp/corsair-vengeance-lpx-16-gb-2-x-8-gb-ddr4-3200-memory-cmk16gx4m2d3200c16) 
+**Memory** | [Corsair - Vengeance LPX 16 GB (2 x 8 GB) DDR4-3200 Memory](https://pcpartpicker.com/product/DK66Mp/corsair-vengeance-lpx-16-gb-2-x-8-gb-ddr4-3200-memory-cmk16gx4m2d3200c16)
 **Storage MVNE (for MacOS)** | [Western Digital - SN750 500 GB M.2-2280 Solid State Drive](https://pcpartpicker.com/product/KTQG3C/western-digital-sn750-500-gb-m2-2280-solid-state-drive-wds500g3x0c)
 **Storage MVNE (for Win10)** | [Western Digital - Blue SN500 500 GB M.2-2280 Solid State Drive](https://pcpartpicker.com/product/2cJtt6/western-digital-blue-sn500-500-gb-m2-2280-solid-state-drive-wds500g1b0c)
 **Storage SATA** | [Western Digital - Red 3 TB 3.5" 5400RPM Internal Hard Drive](https://pcpartpicker.com/product/7sTmP6/western-digital-internal-hard-drive-wd30efrx)
@@ -62,7 +62,7 @@ Type|Item
 * Sleep/Wake
 * Quicklook
 * Youtube video
-* Netflix with Chrome 
+* Netflix with Chrome and Safari
 * H.264 videos via VLC (.mkv, .m4a, .m4p)
 * HWMonitor (after copying required kexts to EFI/Kexts/Others)
 * AirPlay
@@ -74,7 +74,8 @@ Type|Item
 
 ### Not Working
 ---
-* Netflix with Safari (ask for HTML 5 / Silverlight compatible browser)
+
+* NA
 
 ### Being finalized
 ---
@@ -88,4 +89,3 @@ Type|Item
 * [LG 4K Dolby Trailer](https://drive.google.com/uc?export=download&id=1Fr_pI7uadSs9K99WFrJx2-1m8GwcC1R9)
 * [MacIASL](http://sourceforge.net/projects/maciasl)
 * [VideoProc](https://www.videoproc.com/) - Chech UHD Hardware Acceleration
-
