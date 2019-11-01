@@ -71,20 +71,6 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUMwXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUNfXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change SAT0 to SATA</string>
 					<key>Disabled</key>
 					<false/>
@@ -95,20 +81,6 @@ Check _Install RC scripts on target volume_ - Fix with EmuVariableUefi nvram pro
 					<key>Replace</key>
 					<data>
 					U0FUQQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change XHCI to XHC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WEhDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WEhDXw==
 					</data>
 				</dict>
 			</array>
@@ -271,6 +243,7 @@ VirtualSMC.kext | Required
 SMCLightSensor.kext | Metrics
 SMCProcessor.kext | Metrics
 SMCSuperIO.kext | Metrics
+SMCLightSensor.kext | Metrics
 IntelMausiEthernet.kext | Ethernet
 Lilu.kext | Audio + Graphics
 USBPorts.kext | USB [Codeless injection](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KEXTConcept/KEXTConceptAnatomy/kext_anatomy.html)
