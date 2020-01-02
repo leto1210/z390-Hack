@@ -130,7 +130,7 @@
 	<key>RtVariables</key>
 	<dict>
 		<key>MLB</key>
-		<string>XXXXXXXXXXXXXXXX</string>
+		<string>xxxxxxxxxxxxxxxx</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
@@ -143,11 +143,11 @@
 		<key>BiosVersion</key>
 		<string>IMP11.88Z.F000.B00.1907261958</string>
 		<key>Board-ID</key>
-		<string>Mac-XXXXXXXXXXXXXXXX</string>
+		<string>Mac-xxxxxxxxxxxxxxxx</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>XXXXXXXXXXXXXXXX</string>
+		<string>xxxxxxxxxxxxxxxx</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -177,9 +177,9 @@
 		<key>ProductName</key>
 		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
-		<string>XXXXXXXXXXXXXXXX</string>
+		<string>xxxxxxxxxxxxxxxx</string>
 		<key>SmUUID</key>
-		<string>XXXXXXXXXXXXXXXX</string>
+		<string>xxxxxxxxxxxxxxxx</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
