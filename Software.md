@@ -1,7 +1,7 @@
 # Software
 
 ---
-Setup for a Mac 19,2 with Clover 5096
+Setup for a Mac 19,2 with Clover 5105
 
 Mojave version 10.14.6 for AMD Vega native support
 
@@ -23,7 +23,7 @@ macOS Mojave version 10.14.6
 
 ## Installing Clover
 
-Using Clover version 5096
+Using Clover version 5105
 
 _Under UEFI Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 * _ApfsDriverLoader.efi_ - This allows Clover to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device
@@ -244,7 +244,7 @@ SMCLightSensor.kext | Metrics
 SMCProcessor.kext | Metrics
 SMCSuperIO.kext | Metrics
 SMCLightSensor.kext | Metrics
-IntelMausiEthernet.kext | Ethernet
+IntelMausi.kext | Ethernet
 Lilu.kext | Audio + Graphics
 USBPorts.kext | USB [Codeless injection](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KEXTConcept/KEXTConceptAnatomy/kext_anatomy.html)
 WhateverGreen.kext | Graphics
