@@ -29,9 +29,10 @@ _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 * _ApfsDriverLoader.efi_ - This allows OpenCore to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device
 * _HFSPlus.efi_ - Apple official driver for HFS Plus
 * _VirtualSmc.efi_ - Need for VirtualSMC Kexts
-* _MemoryAllocation.efi
-* _OpenRuntime.efi
-* _OpenUsbKbDxe.efi
+* _MemoryAllocation.efi_ - Required
+* _OpenRuntime.efi_ - Required
+* _OpenUsbKbDxe.efi_ -Required
+* _VirtualSMC.efi_ - Required
 
 ## Config.plist
 
@@ -47,11 +48,12 @@ Kext | Usage
 --- | ---
 AppleALC.kext | Audio
 VirtualSMC.kext | Required
-NVMeFix.kext | ........
+NVMeFix.kext | Enhanced compatibility
 SMCLightSensor.kext | Metrics
 SMCProcessor.kext | Metrics
 SMCSuperIO.kext | Metrics
 IntelMausi.kext | Ethernet
 Lilu.kext | Audio + Graphics
+WhateverGreen | Graphics
 USBPorts.kext | USB [Codeless injection](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KEXTConcept/KEXTConceptAnatomy/kext_anatomy.html)
-USBPower.kext | USB Power
+NoTouchID.kext | Disable TouchID call for authentification
