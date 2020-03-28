@@ -2,7 +2,7 @@
 
 
 
-Inspiration by [Hackintosh / Vanilla](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) & [CMER Hackintosh based on Gigabyte Z390 Aorus Master](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh)
+Inspiration by [Hackintosh / Vanilla](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) & [OpenCore Vanilla Guide](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) & [CMER Hackintosh based on Gigabyte Z390 Aorus Master](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh)
 
 Sections:
  * Jump to [Hardware](./Hardware.md)
@@ -17,7 +17,7 @@ Sections:
 
 
 ![About Mac](./Images/About_3.png)
-![About UHD](./Images/UHD_630_About.jpg)
+![About VEGA56](./Images/VideoProc_Result.png)
 
 
 
