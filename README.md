@@ -16,7 +16,7 @@ Sections:
  * Jump to [Benchmark](./benchmark.md)
 
 
-![About Mac](./Images/About_2.jpg)
+![About Mac](./Images/About_3.png)
 ![About UHD](./Images/UHD_630_About.jpg)
 
 
@@ -81,8 +81,6 @@ Type|Item
 * Overall optimization
 
 ### Tools
-* [Clover Installer](https://sourceforge.net/projects/cloverefiboot/files/Installer/)
-* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 * [Hackintoosh](http://headsoft.com.au/download/mac/Hackintool.zip)
 * [Intel Power Gadget](https://software.intel.com/en-us/articles/intel-power-gadget)
 * [LG 4K Dolby Trailer](https://drive.google.com/uc?export=download&id=1Fr_pI7uadSs9K99WFrJx2-1m8GwcC1R9)
