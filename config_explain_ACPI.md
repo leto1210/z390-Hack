@@ -1,116 +1,19 @@
 
 ## ACPI
 
-
-```
-<key>ACPI</key>
-	<dict>
-		<key>AutoMerge</key>
-		<true/>
-		<key>DSDT</key>
-		<dict>
-			<key>Fixes</key>
-			<dict>
-				<key>FixShutdown</key>
-				<true/>
-			</dict>
-			<key>Patches</key>
-			<array>
-				<dict>
-					<key>Comment</key>
-					<string>ACPI Patch - Fix Asus Z390 BIOS bug fix</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					oAqTU1RBUwE=
-					</data>
-					<key>Replace</key>
-					<data>
-					oAqRCv8L//8=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUMwXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUNfXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change SAT0 to SATA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					U0FUQQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change XHCI to XHC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WEhDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
-				</dict>
-			</array>
-		</dict>
-		<key>FixHeaders</key>
-		<false/>
-		<key>SSDT</key>
-		<dict>
-			<key>Generate</key>
-			<dict>
-				<key>PluginType</key>
-				<true/>
-			</dict>
-		</dict>
-	</dict>
-```
+SSDT needed:
+* ***SSDT-AWAC.aml*** This is the 300 series RTC patch
+* ***SSDT-EC-USBX.aml*** Hides the Embedded controller and creates a fake one for macOS, needed for all Catalina users and recommended for other versions of macOS. Also has a second function, USBX. This is used for forcing USB power properties
+* ***SSDT-PLUG.aml*** Allows for native CPU power management
+* ***SSDT-PM.aml*** To enable nvram Z390 support. True 300 series motherboards(non-Z370) don't declare the FW chip as MMIO in ACPI and so XNU ignores the MMIO region declared by the UEFI memory map
+* ***SSDT-UIAC.aml*** To restrict USB ports
 
 ---
 #### Patches :
-* ***ACPI Patch - Fix Asus Z390 BIOS bug fix*** Need for working with ASUS UEFI 1105
 * ***change EC0 to EC*** To enable USB power management
-* ***change SAT0 to SATA*** Need for correct mapping of my SATA drive
+* ***RTC fix***
+* ***change PEPG to GFX0***
+* ***change GFX0 to IGPU***
 * ***change XHCI to XHC*** Helps avoid a conflict with built-in USB injectors
-
----
-#### Fixes : 
-* ***FixShutdown*** Avoid systematic reboot of my Mac after a shutdown command
-
----
-#### Drop Tables (by [Hackintosh / Vanilla](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)): 
-
-We touched in gently on DSDT with our _Patches_ section - and this is a a bit of an extension of that. SSDT is like a sub-section of DSDT. The _Drop Tables_ section allows us to omit certain SSDT tables from loading \(as I mentioned before, mac and PC DSDT is different, and macOS can be rather picky\). The two that I've added are as follows:
-
-* _DMAR_ - this prevents some issues with Vt-d; which is PCI passthrough for VMs, and not very functional \(if at all?\) on Hackintoshes.
-* _MATS_ - with High Sierra on up this table is parsed, and can sometimes contain unprintable characters that can lead to a kernel panic.
-
----
-#### FixHeaders and PluginType (by [Hackintosh / Vanilla](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)):
-
-The only other things we've done on this page are enable these two checkboxes.
-
-* _FixHeaders_ - this is just a double-up of our _MATS_ table dropping.  This checkbox tells Clover to sanitize headers to avoid kernel panics related to unprintable characters.
-* _PluginType_ - this injects some DSDT data to get _X86PlatformPlugin_ to load - giving us a leg-up on native CPU power management. This setting only works on Haswell and newer CPUs though.
-
+* ***change SAT0 to SATA*** Need for correct mapping of my SATA drive
+* ***change HDAS to HDEF***
