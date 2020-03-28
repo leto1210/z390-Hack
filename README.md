@@ -82,6 +82,7 @@ Type|Item
 
 ### Tools
 * [Hackintoosh](http://headsoft.com.au/download/mac/Hackintool.zip)
+* [Kext Updater](https://www.kextupdater.de/)
 * [Intel Power Gadget](https://software.intel.com/en-us/articles/intel-power-gadget)
 * [LG 4K Dolby Trailer](https://drive.google.com/uc?export=download&id=1Fr_pI7uadSs9K99WFrJx2-1m8GwcC1R9)
 * [MacIASL](http://sourceforge.net/projects/maciasl)
