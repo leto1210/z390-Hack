@@ -42,7 +42,7 @@ Type|Item
 **Custom** | Airport Bcm94360Cs2 from Macbook Air A1465 on a WiFi Bluetooth 4.0 Wireless Card to PCI-E Adapter with External Antenna
 
 
-### Working
+### Working -- Under Validation
 ---
 * Mojave install boots successfully
 * APFS - NVME - WD Black
