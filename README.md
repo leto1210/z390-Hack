@@ -2,7 +2,7 @@
 
 
 
-Inspiration by [Hackintosh / Vanilla](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) & [CMER Hackintosh based on Gigabyte Z390 Aorus Master](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh)
+Inspiration by [Hackintosh / Vanilla](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) & [OpenCore Vanilla Guide](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/) & [CMER Hackintosh based on Gigabyte Z390 Aorus Master](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh)
 
 Sections:
  * Jump to [Hardware](./Hardware.md)
@@ -11,13 +11,12 @@ Sections:
  	* Jump to [Explain ACPI](./config_explain_ACPI.md)
  	* Jump to [Explain BOOT](./config_explain_BOOT.md)
  	* Jump to [Explain DEVICES](./config_explain_DEVICES.md)
- 	* Jump to [Explain Kernel And Kext Patches](./config_explain_KandKexTPatches.md)
  	* Jump to [Explain SSDT USB](./config_ssdt_usb.md)
  * Jump to [Benchmark](./benchmark.md)
 
 
-![About Mac](./Images/About_2.jpg)
-![About UHD](./Images/UHD_630_About.jpg)
+![About Mac](./Images/About_3.png)
+![About VEGA56](./Images/VideoProc_Result.png)
 
 
 
@@ -42,7 +41,7 @@ Type|Item
 **Custom** | Airport Bcm94360Cs2 from Macbook Air A1465 on a WiFi Bluetooth 4.0 Wireless Card to PCI-E Adapter with External Antenna
 
 
-### Working
+### Working -- Under Validation
 ---
 * Mojave install boots successfully
 * APFS - NVME - WD Black
@@ -81,9 +80,8 @@ Type|Item
 * Overall optimization
 
 ### Tools
-* [Clover Installer](https://sourceforge.net/projects/cloverefiboot/files/Installer/)
-* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
 * [Hackintoosh](http://headsoft.com.au/download/mac/Hackintool.zip)
+* [Kext Updater](https://www.kextupdater.de/)
 * [Intel Power Gadget](https://software.intel.com/en-us/articles/intel-power-gadget)
 * [LG 4K Dolby Trailer](https://drive.google.com/uc?export=download&id=1Fr_pI7uadSs9K99WFrJx2-1m8GwcC1R9)
 * [MacIASL](http://sourceforge.net/projects/maciasl)
