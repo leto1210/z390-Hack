@@ -192,7 +192,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>WEhDSQ==</data>
 				<key>Limit</key>
@@ -344,6 +344,11 @@
 				<data>AQAAAA==</data>
 				<key>model</key>
 				<string>Cannon Lake PCH cAVS</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>AwCYPg==</data>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -508,7 +513,7 @@
 				<key>Comment</key>
 				<string>Patch engine</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCLightSensor</string>
 				<key>MaxKernel</key>
@@ -522,7 +527,7 @@
 				<key>BundlePath</key>
 				<string>NoTouchID.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/NoTouchID</string>
 				<key>MaxKernel</key>
@@ -825,11 +830,11 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>slide=0</string>
+				<string>slide=0 -v debug=0x100 keepsyms=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
-				<data></data>
+				<string>fr:0</string>
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 			</dict>
@@ -890,17 +895,17 @@
 			<key>AdviseWindows</key>
 			<true/>
 			<key>MLB</key>
-			<string>xxxxxxxxxxxxxx</string>
+			<string>xxxxxxxxxx</string>
 			<key>ROM</key>
-			<data>EhISEhIS</data>
+			<data>EpEiwhIS</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMacPro1,1</string>
+			<string>iMac19,2</string>
 			<key>SystemSerialNumber</key>
-			<string>xxxxxxxxxxxxxxxxxx</string>
+			<string>xxxxxxxx</string>
 			<key>SystemUUID</key>
-			<string>xxxxxxxxxxxxxxxxxxxx</string>
+			<string>xxxxxxxxxx</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -938,7 +943,6 @@
 			<string>MemoryAllocation.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>HFSPlus.efi</string>
-			<string>OpenUsbKbDxe.efi</string>
 			<string>VirtualSmc.efi</string>
 		</array>
 		<key>Input</key>
