@@ -18,8 +18,8 @@ macOS Mojave version 10.15.4
 * Format USB (minimum 8 GB) `diskutil eraseDisk JHFS+ USB /dev/disk#`
 > The above command was required for a USB drive which did not have an EFI partition, not created with the GUID partition scheme. The option to create the GUID partition scheme was not in the Mojave Disk Utility GUI.
 * Create a macOS USB installer `sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/USB`
-* Install Clover to USB installer
-* Run Clover Configurator to create/update EFI partition, or copy EFI folder here to the EFI partition
+* Install OpenCore to USB installer
+* Copy EFI folder here to the EFI partition
 
 ## Installing Clover
 
