@@ -13,6 +13,8 @@ CPU Cooler (NH-D15) | NF-A15 PWM | 120mm | 300-1400 | 21.4
 Rear (Exhaust) | NZXT Aer F120  PWM | 120mm | 500-1500 | 22 - 31 
 Top Rear (Exhaust) | NZXT Aer F120  PWM | 120mm | 500-1500 | 22 - 31
 
+![Fan OS Information](./Images/HWMonitor_Fan.png)
+
 
 ## Asus Z390-F Hardware Info
 
