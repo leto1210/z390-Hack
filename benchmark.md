@@ -9,9 +9,10 @@
 
 ![Overall Score](./Images/GeekBench5_CPU.png)
 
-![OpenCL Performance](./Images/GeekBench5_OpenCL.png)
-
-![Metal Performance](./Images/GeekBench5_Metal.png)
+Whitout Radeonboost Kext|With Radeonboost Kext
+:----|:----
+![OpenCL Performance](./Images/GeekBench5_OpenCL.png)|![OpenCL Performance](./Images/GeekBench5_OpenCL_Radeonboost.png)
+![Metal Performance](./Images/GeekBench5_Metal.png)|![Metal Performance](./Images/GeekBench5_Metal_RadeonBoost.png)
 
 # Cinebench Release 20
 
