@@ -17,6 +17,7 @@ Catalina version 10.15.4 for AMD Vega native support
 macOS Catalina version 10.15.4
 * Format USB (minimum 8 GB) `diskutil eraseDisk JHFS+ USB /dev/disk#`
 > The above command was required for a USB drive which did not have an EFI partition, not created with the GUID partition scheme. The option to create the GUID partition scheme was not in the Mojave Disk Utility GUI.
+
 * Create a macOS USB installer `sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/USB`
 * Install OpenCore to USB installer
 * Copy EFI folder here to the EFI partition
@@ -55,4 +56,3 @@ Lilu.kext | Audio + Graphics
 WhateverGreen | Graphics
 USBPorts.kext | USB [Codeless injection](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KEXTConcept/KEXTConceptAnatomy/kext_anatomy.html)
 RadeonBoost.kext | Graphics (Inject correct device properties for last Radeon)
-
