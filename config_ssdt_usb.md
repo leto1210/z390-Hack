@@ -33,10 +33,12 @@ In this configuration, the 2 rear blue USB3.1 ports, USB 3.1 Gen2 Type C motherb
     * SS09: DISABLED
     * SS10: DISABLED
     * Other Super Speed (SS) USB ports are DISABLED
-* Compile as `SSDT-UIAC.aml` file to `EFI/CLOVER/ACPI/patched/`
-* Disable USB port limit patch in Clover
+* Compile as `SSDT-UIAC.aml` file to `EFI/ACPI/`
+* Disable USB port limit patch in OpenCore
 
 ```
 [File Example](./SSDT/SSDT-UIAC.dsl)
 ```
 
+
+> If you prefer, Hackintool can generate the right files for you ;-)
