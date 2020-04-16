@@ -1,6 +1,6 @@
 # BIOS settings for installation and boot (eGPU)
 
-***Bios version 1105 (2019/06/25)***
+***Bios version 1401 (2019/12/11)***
 
 ````
 Always do a "Load Optimized Defaults" after Bios Update or before applying this parameters
@@ -29,7 +29,10 @@ Always do a "Load Optimized Defaults" after Bios Update or before applying this 
 * Above 4G Decoding: Enabled
 * Graphics Configiration
 	* Primary Display: PCIE
-	* iGPU Monitor: Disabled
+	* iGPU Monitor: Enabled
+	* RC6(Render Standby): Disabled
+	* DVMT Pre-Allocated: 128M
+
 
 ### PCH-FW Configuration
 
