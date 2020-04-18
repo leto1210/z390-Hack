@@ -43,7 +43,7 @@ Type|Item
 
 ### Working
 ---
-* Mojave install boots successfully
+* Catalina install boots successfully
 * APFS - NVME - WD Black
 * Sata - WD Green
 * Sapphire Pulse VEGA 56 HDMI and Display Port
@@ -62,7 +62,7 @@ Type|Item
 * Youtube video
 * Netflix with Chrome and Safari
 * H.264 videos via VLC (.mkv, .m4a, .m4p)
-* HWMonitor (after copying required kexts to EFI/Kexts/Others)
+* HWMonitor
 * AirPlay
 * Handoff & Continuity
 * Facetime
@@ -86,3 +86,4 @@ Type|Item
 * [LG 4K Dolby Trailer](https://drive.google.com/uc?export=download&id=1Fr_pI7uadSs9K99WFrJx2-1m8GwcC1R9)
 * [MacIASL](http://sourceforge.net/projects/maciasl)
 * [VideoProc](https://www.videoproc.com/) - Chech UHD Hardware Acceleration
+* [OpenCore Sanity Checker](https://opencore.slowgeek.com)
