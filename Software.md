@@ -3,7 +3,7 @@
 ---
 Setup for a iMac 19,1 with OpenCore v057
 
-Catalina version 10.15.4 for AMD Vega native support
+Catalina version 10.15.4 with AMD Vega native support
 
 * Jump to [Explain ACPI](./config_explain_ACPI.md)
 * Jump to [Explain BOOT](./config_explain_BOOT.md)
