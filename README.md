@@ -69,15 +69,13 @@ Type|Item
 * Itunes
 * Apple Store
 * Nightshift
+* Apple Watch unlock
 
 ### Not Working
 ---
 
 * NA
 
-### Being finalized
----
-* Overall optimization
 
 ### Tools
 * [Hackintoosh](http://headsoft.com.au/download/mac/Hackintool.zip)
