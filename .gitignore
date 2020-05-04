@@ -29,6 +29,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Personal directories
+EFI/OC/SauvConfig
+
 # End of https://www.gitignore.io/api/macos
 
 *.html
