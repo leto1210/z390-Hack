@@ -1,7 +1,7 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v057
+Setup for a iMac 19,1 with OpenCore v060
 
 Catalina version 10.15.4 with AMD Vega native support
 
@@ -24,7 +24,7 @@ macOS Catalina version 10.15.4
 
 ## Installing OpenCore
 
-Using OpenCore version 057
+Using OpenCore version 060
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
@@ -55,4 +55,3 @@ IntelMausi.kext | Ethernet
 Lilu.kext | Audio + Graphics
 WhateverGreen | Graphics
 USBPorts.kext | USB [Codeless injection](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KEXTConcept/KEXTConceptAnatomy/kext_anatomy.html)
-RadeonBoost.kext | Graphics (Inject correct device properties for last Radeon)
