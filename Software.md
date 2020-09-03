@@ -8,7 +8,6 @@ Catalina version 10.15.4 with AMD Vega native support
 * Jump to [Explain ACPI](./config_explain_ACPI.md)
 * Jump to [Explain BOOT](./config_explain_BOOT.md)
 * Jump to [Explain DEVICES](./config_explain_DEVICES.md)
-* Jump to [Explain Kernel And Kext Patches](./config_explain_KandKexTPatches.md)
 * Jump to [Explain SSDT USB](./config_ssdt_usb.md)
 
 
