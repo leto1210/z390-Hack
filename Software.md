@@ -1,7 +1,7 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v060
+Setup for a iMac 19,1 with OpenCore v062
 
 Catalina version 10.15.4 with AMD Vega native support
 
@@ -23,7 +23,7 @@ macOS Catalina version 10.15.4
 
 ## Installing OpenCore
 
-Using OpenCore version 060
+Using OpenCore version 062
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
@@ -47,7 +47,6 @@ Kext | Usage
 --- | ---
 AppleALC.kext | Audio
 VirtualSMC.kext | Required
-SMCLightSensor.kext | Metrics
 SMCProcessor.kext | Metrics
 SMCSuperIO.kext | Metrics
 IntelMausi.kext | Ethernet
