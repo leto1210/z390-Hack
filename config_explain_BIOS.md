@@ -1,6 +1,6 @@
 # BIOS settings for installation and boot (eGPU)
 
-***Bios version 1401 (2019/12/11)***
+***Bios version 1802 (2020/12/15)***
 
 ````
 Always do a "Load Optimized Defaults" after Bios Update or before applying this parameters
@@ -8,7 +8,7 @@ Always do a "Load Optimized Defaults" after Bios Update or before applying this 
 
 ## Ai Tweaker
 
-* Ai Overclock Tuner: XMP 1
+* Ai Overclock Tuner: XMP 2
 
 ## Advanced
 
@@ -19,7 +19,7 @@ Always do a "Load Optimized Defaults" after Bios Update or before applying this 
 
 ### CPU Configguration
 
-* Intel (VMX) Virtualization Technology: Disabled
+* Intel (VMX) Virtualization Technology: Enabled
 * CPU Powermanagement Control
 	* CFG Lock: Disabled
 
@@ -31,7 +31,7 @@ Always do a "Load Optimized Defaults" after Bios Update or before applying this 
 	* Primary Display: PCIE
 	* iGPU Monitor: Enabled
 	* RC6(Render Standby): Disabled
-	* DVMT Pre-Allocated: 128M
+	* DVMT Pre-Allocated: 64M
 
 
 ### PCH-FW Configuration
