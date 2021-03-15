@@ -1,7 +1,7 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v066
+Setup for a iMac 19,1 with OpenCore v067
 
 Catalina version 10.15.7 with AMD Vega native support
 
@@ -23,7 +23,7 @@ macOS Catalina version 10.15.7
 
 ## Installing OpenCore
 
-Using OpenCore version 066
+Using OpenCore version 067
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
