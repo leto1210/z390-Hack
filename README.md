@@ -43,7 +43,7 @@ Type|Item
 
 ### Working
 ---
-* Catalina install boots successfully
+* Big Sur install boots successfully
 * APFS - NVME - WD Black
 * Sata - WD Green
 * Sapphire Pulse VEGA 56 HDMI and Display Port
