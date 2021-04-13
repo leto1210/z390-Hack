@@ -1,7 +1,7 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v067
+Setup for a iMac 19,1 with OpenCore v068
 
 Catalina version 10.15.7 with AMD Vega native support
 
