@@ -23,12 +23,11 @@ macOS Catalina version 10.15.7
 
 ## Installing OpenCore
 
-Using OpenCore version 067
+Using OpenCore version 068
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
-* _ApfsDriverLoader.efi_ - This allows OpenCore to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device
-* _HFSPlus.efi_ - Apple official driver for HFS Plus
+* _OpenHFSPlus.efi_ - Apple official driver for HFS Plus
 * _OpenRuntime.efi_ - Required
 * _OpenCanopy.efi_ - Optional
 
