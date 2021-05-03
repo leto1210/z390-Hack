@@ -70,6 +70,7 @@ Type|Item
 * Apple Store
 * Nightshift
 * Apple Watch unlock
+* Sidecar
 
 ### Not Working
 ---
