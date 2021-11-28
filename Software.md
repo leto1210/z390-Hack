@@ -1,9 +1,9 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v068
+Setup for a iMac 19,1 with OpenCore v075
 
-Catalina version 10.15.7 with AMD Vega native support
+Big Sur version 11.3.1 with AMD Vega native support
 
 * Jump to [Explain ACPI](./config_explain_ACPI.md)
 * Jump to [Explain BOOT](./config_explain_BOOT.md)
@@ -13,17 +13,17 @@ Catalina version 10.15.7 with AMD Vega native support
 
 ## Create macOS Installation
 
-macOS Catalina version 10.15.7
-* Format USB (minimum 8 GB) `diskutil eraseDisk JHFS+ USB /dev/disk#`
+macOS Big Sur version 11.3.1
+* Format USB (minimum 16 GB) `diskutil eraseDisk JHFS+ USB /dev/disk#`
 > The above command was required for a USB drive which did not have an EFI partition, not created with the GUID partition scheme. The option to create the GUID partition scheme was not in the Mojave Disk Utility GUI.
 
-* Create a macOS USB installer `sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/USB`
+* Create a macOS USB installer `sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/USB`
 * Install OpenCore to USB installer
 * Copy EFI folder here to the EFI partition
 
 ## Installing OpenCore
 
-Using OpenCore version 068
+Using OpenCore version 075
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
