@@ -85,4 +85,3 @@ Type|Item
 * [LG 4K Dolby Trailer](https://drive.google.com/uc?export=download&id=1Fr_pI7uadSs9K99WFrJx2-1m8GwcC1R9)
 * [MacIASL](http://sourceforge.net/projects/maciasl)
 * [VideoProc](https://www.videoproc.com/) - Chech UHD Hardware Acceleration
-* [OpenCore Sanity Checker](https://opencore.slowgeek.com)
