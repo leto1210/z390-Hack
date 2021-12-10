@@ -15,7 +15,7 @@ Sections:
  * Jump to [Benchmark](./benchmark.md)
 
 
-![About Mac](./Images/About_7.png)
+![About Mac](./Images/About_8.png)
 ![About VEGA56](./Images/VideoProc_Result_2.png)
 
 

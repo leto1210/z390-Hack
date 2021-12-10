@@ -3,7 +3,7 @@
 ---
 Setup for a iMac 19,1 with OpenCore v075
 
-Big Sur version 11.3.1 with AMD Vega native support
+Big Sur version 11.6.1 with AMD Vega native support
 
 * Jump to [Explain ACPI](./config_explain_ACPI.md)
 * Jump to [Explain BOOT](./config_explain_BOOT.md)
@@ -13,7 +13,7 @@ Big Sur version 11.3.1 with AMD Vega native support
 
 ## Create macOS Installation
 
-macOS Big Sur version 11.3.1
+macOS Big Sur version 11.6.1
 * Format USB (minimum 16 GB) `diskutil eraseDisk JHFS+ USB /dev/disk#`
 > The above command was required for a USB drive which did not have an EFI partition, not created with the GUID partition scheme. The option to create the GUID partition scheme was not in the Mojave Disk Utility GUI.
 
@@ -35,7 +35,6 @@ _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 ## Config.plist
 
 ```markup
-
 
 
 ```
