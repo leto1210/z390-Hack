@@ -1,9 +1,9 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v075
+Setup for a iMac 19,1 with OpenCore v078
 
-Big Sur version 11.6.1 with AMD Vega native support
+Big Sur version 11.6.5 with AMD Vega native support
 
 * Jump to [Explain ACPI](./config_explain_ACPI.md)
 * Jump to [Explain BOOT](./config_explain_BOOT.md)
@@ -23,7 +23,7 @@ macOS Big Sur version 11.6.1
 
 ## Installing OpenCore
 
-Using OpenCore version 075
+Using OpenCore version 078
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
