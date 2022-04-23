@@ -34,7 +34,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-SBUS-MCHC.aml</string>
                 </dict>
@@ -162,7 +162,9 @@
                     <key>AAPL,ig-platform-id</key>
                     <data>AwCRPg==</data>
                     <key>AAPL,slot-name</key>
-                    <string>Built-In</string>
+                    <string>Internal@0,2,0</string>
+                    <key>hda-gfx</key>
+                    <string>onboard-2</string>
                     <key>model</key>
                     <string>Intel UHD 630 (for computing tasks)</string>
                 </dict>
@@ -379,6 +381,8 @@
                 <false/>
                 <key>AppleXcpmForceBoost</key>
                 <false/>
+                <key>CustomPciSerialDevice</key>
+                <false/>
                 <key>CustomSMBIOSGuid</key>
                 <false/>
                 <key>DisableIoMapper</key>
@@ -390,6 +394,8 @@
                 <key>ExtendBTFeatureFlags</key>
                 <false/>
                 <key>ExternalDiskIcons</key>
+                <false/>
+                <key>ForceAquantiaEthernet</key>
                 <false/>
                 <key>ForceSecureBootScheme</key>
                 <false/>
@@ -469,8 +475,8 @@
                 <integer>0</integer>
                 <key>DisplayLevel</key>
                 <integer>2147483650</integer>
-                <key>SerialInit</key>
-                <false/>
+                <key>LogModules</key>
+                <string>*</string>
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
@@ -511,6 +517,40 @@
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
+            <key>Serial</key>
+            <dict>
+              <key>Custom</key>
+              <dict>
+                <key>BaudRate</key>
+                <integer>115200</integer>
+                <key>ClockRate</key>
+                <integer>1843200</integer>
+                <key>DetectCable</key>
+                <false/>
+                <key>ExtendedTxFifoSize</key>
+                <integer>64</integer>
+                <key>FifoControl</key>
+                <integer>7</integer>
+                <key>LineControl</key>
+                <integer>3</integer>
+                <key>PciDeviceInfo</key>
+                <data>/w==</data>
+                <key>RegisterAccessWidth</key>
+                <integer>8</integer>
+                <key>RegisterBase</key>
+                <integer>1016</integer>
+                <key>RegisterStride</key>
+                <integer>1</integer>
+                <key>UseHardwareFlowControl</key>
+                <false/>
+                <key>UseMmio</key>
+                <false/>
+              </dict>
+              <key>Init</key>
+              <false/>
+              <key>Override</key>
+              <false/>
+            </dict>
             <key>Tools</key>
             <array/>
         </dict>
@@ -534,10 +574,6 @@
                 <dict>
                     <key>#csr-active-config (SIP enabled)</key>
                     <data>AAAAAA==</data>
-                    <key>#csr-active-config (macOS 10.13)</key>
-                    <data>/wMAAA==</data>
-                    <key>#csr-active-config (macOS 10.14/10.15)</key>
-                    <data>/wcAAA==</data>
                     <key>#csr-active-config (macOS 11)</key>
                     <data>ZwgAAA==</data>
                     <key>#csr-active-config (macOS 12)</key>
@@ -619,7 +655,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>xxxxxx</string>
+                <string>xxxxxxxxxxxxxxx</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -633,9 +669,9 @@
                 <key>SystemProductName</key>
                 <string>iMac19,1</string>
                 <key>SystemSerialNumber</key>
-                <string>xxxxxx</string>
+                <string>xxxxxxxxxxxxxxx</string>
                 <key>SystemUUID</key>
-                <string>xxxxxx</string>
+                <string>xxxxxxxxxxxxxxx</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
