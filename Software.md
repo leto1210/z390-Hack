@@ -3,7 +3,7 @@
 ---
 Setup for a iMac 19,1 with OpenCore v080
 
-Big Sur version 11.6.5 with AMD Vega native support
+Monterey version 12.4 with AMD Vega native support
 
 * Jump to [Explain ACPI](./config_explain_ACPI.md)
 * Jump to [Explain BOOT](./config_explain_BOOT.md)
@@ -13,23 +13,25 @@ Big Sur version 11.6.5 with AMD Vega native support
 
 ## Create macOS Installation
 
-macOS Big Sur version 11.6.1
+macOS Monterey version 12.4
 * Format USB (minimum 16 GB) `diskutil eraseDisk JHFS+ USB /dev/disk#`
 > The above command was required for a USB drive which did not have an EFI partition, not created with the GUID partition scheme. The option to create the GUID partition scheme was not in the Mojave Disk Utility GUI.
 
-* Create a macOS USB installer `sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/USB`
+* Create a macOS USB installer `sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
 * Install OpenCore to USB installer
 * Copy EFI folder here to the EFI partition
 
 ## Installing OpenCore
 
-Using OpenCore version 080
+Using OpenCore version 082
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
 * _OpenHFSPlus.efi_ - Apple official driver for HFS Plus
 * _OpenRuntime.efi_ - Required
 * _OpenCanopy.efi_ - Optional
+* _ResetNvramEntry.efi_ - Required
+* _ToggleSipEntry.efi_ - Optional
 
 
 ## Config.plist
