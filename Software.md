@@ -1,9 +1,9 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v080
+Setup for a iMac 19,1 with OpenCore v083
 
-Monterey version 12.4 with AMD Vega native support
+Monterey version 12.4 with AMD RDNA2 native support
 
 * Jump to [Explain ACPI](./config_explain_ACPI.md)
 * Jump to [Explain BOOT](./config_explain_BOOT.md)
@@ -23,7 +23,7 @@ macOS Monterey version 12.4
 
 ## Installing OpenCore
 
-Using OpenCore version 082
+Using OpenCore version 083
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
@@ -53,3 +53,6 @@ IntelMausi.kext | Ethernet
 Lilu.kext | Audio + Graphics
 WhateverGreen | Graphics
 USBPorts.kext | USB [Codeless injection](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KEXTConcept/KEXTConceptAnatomy/kext_anatomy.html)
+RadeonSensor.kext | Metrics [RadeonSensor project](https://github.com/aluveitie/RadeonSensor)
+SMCRadeonGPU.kext | Metrics [RadeonSensor project](https://github.com/aluveitie/RadeonSensor)
+

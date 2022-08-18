@@ -1,4 +1,4 @@
-# z390-Hackintosh based on ***Core i7-8700 | Z390 | VEGA56***
+# z390-Hackintosh based on ***Core i9-9900k | Z390 | RX6600***
 
 
 
@@ -15,8 +15,8 @@ Sections:
  * Jump to [Benchmark](./benchmark.md)
 
 
-![About Mac](./Images/About_9.png)
-![About VEGA56](./Images/VideoProc_Result_2.png)
+![About Mac](./Images/About_10.png)
+![About RX6600](./Images/VideoProc_Result_3.png)
 
 
 
@@ -26,7 +26,8 @@ Sections:
 
 Type|Item
 :----|:----
-**CPU** | [Intel - Core i7-8700 3.2 GHz 6-Core Processor](https://pcpartpicker.com/product/C9hj4D/intel-core-i7-8700-32ghz-6-core-processor-bx80684i78700)
+**~~CPU~~** | [~~Intel - Core i7-8700 3.2 GHz 6-Core Processor~~](https://pcpartpicker.com/product/C9hj4D/intel-core-i7-8700-32ghz-6-core-processor-bx80684i78700)
+**CPU** | Intel - Core i9-9900k 3.6 GHz 8-Core Processor
 **CPU Cooler** | [be quiet! - Dark Rock 4 CPU Cooler](https://pcpartpicker.com/product/FRYLrH/be-quiet-dark-rock-4-cpu-cooler-bk021)
 **Motherboard** | [Asus - ROG STRIX Z390-F GAMING ATX LGA1151 Motherboard](https://pcpartpicker.com/product/CM7v6h/asus-rog-strix-z390-f-gaming-atx-lga1151-motherboard-rog-strix-z390-f-gaming)
 **Memory** | [Corsair - Vengeance LPX 16 GB (2 x 8 GB) DDR4-3200 Memory](https://pcpartpicker.com/product/DK66Mp/corsair-vengeance-lpx-16-gb-2-x-8-gb-ddr4-3200-memory-cmk16gx4m2d3200c16)
@@ -34,7 +35,8 @@ Type|Item
 **Storage MVNE (for MacOS)** | [Western Digital - SN750 500 GB M.2-2280 Solid State Drive](https://pcpartpicker.com/product/KTQG3C/western-digital-sn750-500-gb-m2-2280-solid-state-drive-wds500g3x0c)
 **Storage MVNE (for Win10)** | [Western Digital - Blue SN500 500 GB M.2-2280 Solid State Drive](https://pcpartpicker.com/product/2cJtt6/western-digital-blue-sn500-500-gb-m2-2280-solid-state-drive-wds500g1b0c)
 **Storage SATA** | [Seagate FireCuda 1 TB 2.5" 5400RPM Hybrid Internal Hard Drive](https://fr.pcpartpicker.com/product/w6x9TW/seagate-firecuda-1tb-25-5400rpm-hybrid-internal-hard-drive-st1000lx015)
-**Video Card** | [Sapphire - Radeon RX VEGA 56 8 GB PULSE Video Card](https://pcpartpicker.com/product/cKhKHx/sapphire-radeon-rx-vega-56-2gb-pulse-video-card-11276-02-40g)
+**~~Video Card~~** | ~~[Sapphire - Radeon RX VEGA 56 8 GB PULSE Video Card](https://pcpartpicker.com/product/cKhKHx/sapphire-radeon-rx-vega-56-2gb-pulse-video-card-11276-02-40g)~~
+**Video Card** | Sapphire - Radeon RX 6600 Gaming 8 GB PULSE Video Card
 **Case** | [NZXT - H500 ATX Mid Tower Case](https://pcpartpicker.com/product/dy66Mp/nzxt-ca-h500b-ow-atx-mid-tower-case-ca-h500b-ow)
 **Power Supply** | [SeaSonic - PRIME Ultra Titanium 650 W 80+ Titanium Certified Fully Modular ATX Power Supply](https://pcpartpicker.com/product/fnjJ7P/seasonic-prime-ultra-titanium-650w-80-titanium-certified-fully-modular-atx-power-supply-ssr-650tr)
 **Custom** | [ROG Addressable LED Strip (30 cm, Aura Sync RGB, magnetisch Casemod)](https://pcpartpicker.com/product/ytBTwP/rog-addressable-led-strip-30-cm-aura-sync-rgb-magnetisch-casemod)

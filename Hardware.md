@@ -9,8 +9,8 @@ Front panel USB uses 3.0 Gen1 instead of 3.0 Gen2.
 
 Location|Fan|Size|RPM|dbA
 :----|:----|:----|:----|:----
-CPU Cooler (NH-D15) | NF-A15 PWM | 120mm | 300-1400 | 21.4 
-Rear (Exhaust) | NZXT Aer F120  PWM | 120mm | 500-1500 | 22 - 31 
+CPU Cooler (NH-D15) | NF-A15 PWM | 120mm | 300-1400 | 21.4
+Rear (Exhaust) | NZXT Aer F120  PWM | 120mm | 500-1500 | 22 - 31
 Top Rear (Exhaust) | NZXT Aer F120  PWM | 120mm | 500-1500 | 22 - 31
 
 ![Fan OS Information](./Images/HWMonitor_Fan.png)
@@ -40,3 +40,23 @@ USB11         | HS011        | USB 2.0 Only
 USB12         | HS012        | USB 2.0 Only
 USB13         | HS013        | USB 2.0 Only
 USB14         | HS014        | USB 2.0 Only
+
+***USB Logical Mapping in MacOS(15 ports limit)*** for each port identified in the bios
+
+Logical Port | Port Type
+--------------|--------
+ HS01         | USB 3
+ HS02         | USB 3
+ HS03         | USB 3
+ HS04         | Type C + Switch
+ HS07         | USB 3
+ HS08         | USB 3
+ HS012        | Internal
+ HS013        | USB 2
+ HS014        | USB 2
+ SS01         | USB 3
+ SS02         | USB 3
+ SS03         | USB 3
+ SS04         | Type C + Switch
+ SS07         | USB 3
+ SS08         | USB 3
