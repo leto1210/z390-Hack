@@ -40,19 +40,20 @@ Type|Item
 **Case** | [NZXT - H500 ATX Mid Tower Case](https://pcpartpicker.com/product/dy66Mp/nzxt-ca-h500b-ow-atx-mid-tower-case-ca-h500b-ow)
 **Power Supply** | [SeaSonic - PRIME Ultra Titanium 650 W 80+ Titanium Certified Fully Modular ATX Power Supply](https://pcpartpicker.com/product/fnjJ7P/seasonic-prime-ultra-titanium-650w-80-titanium-certified-fully-modular-atx-power-supply-ssr-650tr)
 **Custom** | [ROG Addressable LED Strip (30 cm, Aura Sync RGB, magnetisch Casemod)](https://pcpartpicker.com/product/ytBTwP/rog-addressable-led-strip-30-cm-aura-sync-rgb-magnetisch-casemod)
-**Custom** | Airport Bcm94360Cs2 from Macbook Air A1465 on a WiFi Bluetooth 4.0 Wireless Card to PCI-E Adapter with External Antenna
+**Custom** | ~~Airport Bcm94360Cs2 from Macbook Air A1465 on a WiFi Bluetooth 4.0 Wireless Card to PCI-E Adapter with External Antenna~~
+**Custom** | Airport Bcm943602CDP from iMac A1418 & A1419 on a WiFi Bluetooth 4.2 Wireless Card to PCI-E Adapter with External Antenna
 
 
 ### Working
 ---
-* Big Sur install boots successfully
+* Monterey install boots successfully
 * APFS - NVME - WD Black
 * Sata - WD Green
-* Sapphire Pulse VEGA 56 HDMI and Display Port
+* Sapphire Pulse RX6600 HDMI and Display Port
 * Headless iGPU UHD 630
 * Wired Ethernet - Intel I219-V PCI Express Gigabit Ethernet
-* Wireless Ethernet / Wifi - Airport A1465 (Bcm94360Cs2)
-* Bluetooth - Airport A1465 (Bcm94360Cs2)
+* Wireless Ethernet / Wifi - Airport A1418 (Bcm943602CDP)
+* Bluetooth - Airport A1418 (Bcm943602CDP)
 * Apple Bluetooth WakeUp
 * Audio - Select internal speakers
 * Rear and Front audio jacks
