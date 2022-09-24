@@ -1,6 +1,6 @@
-# BIOS settings for installation and boot (eGPU)
+# BIOS settings for installation and boot (dGPU)
 
-***Bios version 1802 (2020/12/15)***
+***Bios version 2004 (2021/11/29)***
 
 ````
 Always do a "Load Optimized Defaults" after Bios Update or before applying this parameters
