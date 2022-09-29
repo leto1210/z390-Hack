@@ -8,7 +8,7 @@ SSDT needed:
 * ***SSDT-PLUG.aml*** [Allows for native CPU power management](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug-methods/prebuilt.html)
 * ***SSDT-PMC.aml*** To enable nvram Z390 support. True 300 series motherboards(non-Z370) don't declare the FW chip as MMIO in ACPI and so XNU ignores the MMIO region declared by the UEFI memory map
 * ***SSDT-DMAR.aml*** Fix memory reservation for Wihi and Ethernet workin when Intel VT-d is enabled and system memory is higher > 16G
-* ***SSDT-ASUS-AQUANTIA.aml*** Mapping third network card whit Aquantia with the correct PCI Id (The network card must be on the last physical PCI slot: PCIEX16_3)
+* ***~~SSDT-ASUS-AQUANTIA.aml~~*** ~~Mapping third network card whit Aquantia with the correct PCI Id (The network card must be on the second physical PCI slot: PCIEX16_2)~~
 
 
 ---

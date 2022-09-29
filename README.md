@@ -42,6 +42,7 @@ Type|Item
 **Custom** | [ROG Addressable LED Strip (30 cm, Aura Sync RGB, magnetisch Casemod)](https://pcpartpicker.com/product/ytBTwP/rog-addressable-led-strip-30-cm-aura-sync-rgb-magnetisch-casemod)
 **Custom** | ~~Airport Bcm94360Cs2 from Macbook Air A1465 on a WiFi Bluetooth 4.0 Wireless Card to PCI-E Adapter with External Antenna~~
 **Custom** | Airport Bcm943602CDP from iMac A1418 & A1419 on a WiFi Bluetooth 4.2 Wireless Card to PCI-E Adapter with External Antenna
+**Custom** | Sonnet Solo10G SFP+ card
 
 
 ### Working
