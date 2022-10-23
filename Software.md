@@ -1,9 +1,9 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v083
+Setup for a iMac 19,1 with OpenCore v085
 
-Monterey version 12.4 with AMD RDNA2 native support
+Monterey version 12.6 with AMD RDNA2 native support
 
 * Jump to [Explain ACPI](./config_explain_ACPI.md)
 * Jump to [Explain BOOT](./config_explain_BOOT.md)
@@ -13,7 +13,7 @@ Monterey version 12.4 with AMD RDNA2 native support
 
 ## Create macOS Installation
 
-macOS Monterey version 12.4
+macOS Monterey version 12.6
 * Format USB (minimum 16 GB) `diskutil eraseDisk JHFS+ USB /dev/disk#`
 > The above command was required for a USB drive which did not have an EFI partition, not created with the GUID partition scheme. The option to create the GUID partition scheme was not in the Mojave Disk Utility GUI.
 
@@ -23,7 +23,7 @@ macOS Monterey version 12.4
 
 ## Installing OpenCore
 
-Using OpenCore version 083
+Using OpenCore version 085
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
@@ -55,4 +55,3 @@ WhateverGreen | Graphics
 USBPorts.kext | USB [Codeless injection](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KEXTConcept/KEXTConceptAnatomy/kext_anatomy.html)
 RadeonSensor.kext | Metrics [RadeonSensor project](https://github.com/aluveitie/RadeonSensor)
 SMCRadeonGPU.kext | Metrics [RadeonSensor project](https://github.com/aluveitie/RadeonSensor)
-

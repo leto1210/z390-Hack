@@ -19,4 +19,4 @@ No patches
 ---
 #### Delete :
 
-Drop OEM DMAR Table (working with SSDT-DMAR.aml)
+Drop OEM DMAR Table (working with SSDT-DMAR.aml) - Mandatory for Sonnet Solo10G SFP+ support
