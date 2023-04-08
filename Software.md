@@ -1,9 +1,9 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v088
+Setup for a iMac 19,1 with OpenCore v091
 
-Monterey version 12.6.2 with AMD RDNA2 native support
+Monterey version 12.6.4 with AMD RDNA2 native support
 
 * Jump to [Explain ACPI](./config_explain_ACPI.md)
 * Jump to [Explain BOOT](./config_explain_BOOT.md)
@@ -23,7 +23,7 @@ macOS Monterey version 12.6
 
 ## Installing OpenCore
 
-Using OpenCore version 088
+Using OpenCore version 091
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
