@@ -15,7 +15,7 @@ Sections:
  * Jump to [Benchmark](./benchmark.md)
 
 
-![About Mac](./Images/About_10.png)
+![About Mac](./Images/About_12.png)
 ![About RX6600](./Images/VideoProc_Result_3.png)
 
 
