@@ -33,7 +33,7 @@ Type|Item
 **Memory** | [Corsair - Vengeance LPX 16 GB (2 x 8 GB) DDR4-3200 Memory](https://pcpartpicker.com/product/DK66Mp/corsair-vengeance-lpx-16-gb-2-x-8-gb-ddr4-3200-memory-cmk16gx4m2d3200c16)
 **Memory** | [Corsair - Vengeance LPX 16 GB (2 x 8 GB) DDR4-3200 Memory](https://pcpartpicker.com/product/DK66Mp/corsair-vengeance-lpx-16-gb-2-x-8-gb-ddr4-3200-memory-cmk16gx4m2d3200c16)
 **~~Storage MVNE (for MacOS)~~** | [~~Western Digital - SN750 500 GB M.2-2280 Solid State Drive~~](https://pcpartpicker.com/product/KTQG3C/western-digital-sn750-500-gb-m2-2280-solid-state-drive-wds500g3x0c)
-**Storage MVNE (for MacOS)** | [Western Digital - Black SN770 1 TB M.2-2280 Solid State Drive]
+**Storage MVNE (for MacOS)** | Western Digital - Black SN770 1 TB M.2-2280 Solid State Drive
 **Storage MVNE (for Win10)** | [Western Digital - Blue SN500 500 GB M.2-2280 Solid State Drive](https://pcpartpicker.com/product/2cJtt6/western-digital-blue-sn500-500-gb-m2-2280-solid-state-drive-wds500g1b0c)
 **Storage SATA** | [Seagate FireCuda 1 TB 2.5" 5400RPM Hybrid Internal Hard Drive](https://fr.pcpartpicker.com/product/w6x9TW/seagate-firecuda-1tb-25-5400rpm-hybrid-internal-hard-drive-st1000lx015)
 **~~Video Card~~** | ~~[Sapphire - Radeon RX VEGA 56 8 GB PULSE Video Card](https://pcpartpicker.com/product/cKhKHx/sapphire-radeon-rx-vega-56-2gb-pulse-video-card-11276-02-40g)~~
