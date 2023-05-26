@@ -1,9 +1,9 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v091
+Setup for a iMac 19,1 with OpenCore v092
 
-Monterey version 12.6.4 with AMD RDNA2 native support
+Ventura version 13.4 with AMD RDNA2 native support
 
 * Jump to [Explain ACPI](./config_explain_ACPI.md)
 * Jump to [Explain BOOT](./config_explain_BOOT.md)
@@ -13,17 +13,17 @@ Monterey version 12.6.4 with AMD RDNA2 native support
 
 ## Create macOS Installation
 
-macOS Monterey version 12.6
+macOS Ventura version 13.4
 * Format USB (minimum 16 GB) `diskutil eraseDisk JHFS+ USB /dev/disk#`
 > The above command was required for a USB drive which did not have an EFI partition, not created with the GUID partition scheme. The option to create the GUID partition scheme was not in the Mojave Disk Utility GUI.
 
-* Create a macOS USB installer `sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
+* Create a macOS USB installer `sudo /Applications/Install\ macOS\ Ventura.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
 * Install OpenCore to USB installer
 * Copy EFI folder here to the EFI partition
 
 ## Installing OpenCore
 
-Using OpenCore version 091
+Using OpenCore version 092
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
