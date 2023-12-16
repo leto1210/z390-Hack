@@ -1,7 +1,7 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v093
+Setup for a iMac 19,1 with OpenCore v096
 
 Ventura version 13.4 with AMD RDNA2 native support
 
@@ -23,7 +23,7 @@ macOS Ventura version 13.4
 
 ## Installing OpenCore
 
-Using OpenCore version 093
+Using OpenCore version 096
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
