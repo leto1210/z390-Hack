@@ -1,9 +1,9 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v096
+Setup for a iMac 19,1 with OpenCore v101
 
-Ventura version 13.6 with AMD RDNA2 native support
+Sonoma version 14.6 with AMD RDNA2 native support
 
 * Jump to [Explain ACPI](./config_explain_ACPI.md)
 * Jump to [Explain BOOT](./config_explain_BOOT.md)
@@ -17,13 +17,13 @@ macOS Ventura version 13.6
 * Format USB (minimum 16 GB) `diskutil eraseDisk JHFS+ USB /dev/disk#`
 > The above command was required for a USB drive which did not have an EFI partition, not created with the GUID partition scheme. The option to create the GUID partition scheme was not in the Mojave Disk Utility GUI.
 
-* Create a macOS USB installer `sudo /Applications/Install\ macOS\ Ventura.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
+* Create a macOS USB installer `sudo /Applications/Install\ macOS\ Sonoma.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
 * Install OpenCore to USB installer
 * Copy EFI folder here to the EFI partition
 
 ## Installing OpenCore
 
-Using OpenCore version 099
+Using OpenCore version 101
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
@@ -53,5 +53,7 @@ IntelMausi.kext | Ethernet
 Lilu.kext | Audio + Graphics
 WhateverGreen | Graphics
 USBPorts.kext | USB [Codeless injection](https://developer.apple.com/library/archive/documentation/Darwin/Conceptual/KEXTConcept/KEXTConceptAnatomy/kext_anatomy.html)
-RadeonSensor.kext | Metrics [RadeonSensor project](https://github.com/aluveitie/RadeonSensor)
-SMCRadeonGPU.kext | Metrics [RadeonSensor project](https://github.com/aluveitie/RadeonSensor)
+SMCRadeonSensors.kext | Metrics [SMCRadeonSensors](https://github.com/ChefKissInc/SMCRadeonSensors)
+IOSkywalkFamily.kext  | Required (Fix Wifi support in Sonoma)
+IO80211FamilyLegacy.kext  | Required (Fix Wifi support in Sonoma)
+IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext | Required (Fix Wifi support in Sonoma)

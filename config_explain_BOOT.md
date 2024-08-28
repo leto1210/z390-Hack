@@ -4,5 +4,6 @@
 
 #### Arguments (by [Hackintosh / Vanilla](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)):
 
-No more boot args :-) !!
-
+Add boot args for
+* dGPU Radeon support
+* to override kernel version checking by AMFIPass.kext
