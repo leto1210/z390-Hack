@@ -29,7 +29,7 @@ So for getting back Wi-Fi in sonoma we have to:
 
 - Block com.apple.iokit.IOSkywalkFamily, setting MinKernel to 23.0.0 to ensure the patch is applied only in Sonoma
 
-![Block](./Images/Wifi_Kernel_Block.png)
+![Block](./Images/WiFi_Kernel_Block.png)
 - Inject 3 extensions (Kexts folder and config.plist): IOSkywalk.kext, IO80211FamilyLegacy.kext and AirPortBrcmNIC.kext (IO80211FamilyLegacy.kext plugin) in this order, setting MinKernel to 23.0.0 to ensure they are injected only in Sonoma
 
 - Reboot and apply OCLP root patch (Modern Wireless Network)
