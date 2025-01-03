@@ -1,7 +1,7 @@
 # Software
 
 ---
-Setup for a iMac 19,1 with OpenCore v101
+Setup for a iMac 19,1 with OpenCore v103
 
 Sonoma version 14.6 with AMD RDNA2 native support
 
@@ -13,7 +13,8 @@ Sonoma version 14.6 with AMD RDNA2 native support
 
 ## Create macOS Installation
 
-macOS Ventura version 13.6
+macOS Sonoma version 14.7
+
 * Format USB (minimum 16 GB) `diskutil eraseDisk JHFS+ USB /dev/disk#`
 > The above command was required for a USB drive which did not have an EFI partition, not created with the GUID partition scheme. The option to create the GUID partition scheme was not in the Mojave Disk Utility GUI.
 
@@ -23,7 +24,7 @@ macOS Ventura version 13.6
 
 ## Installing OpenCore
 
-Using OpenCore version 101
+Using OpenCore version 103
 
 _Under Drivers (Recommanded / FileSystem / Memory Fix / Additional) choose:_
 
